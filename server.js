@@ -86,7 +86,7 @@ app.post("/people", async (req, res) => {
   }
 });
 
-// PEOPLE CREATE ROUTE
+// PEOPLE UPDATE ROUTE
 app.put("/people/:id", async (req, res) => {
   try {
     // send all people
@@ -99,7 +99,7 @@ app.put("/people/:id", async (req, res) => {
   }
 });
 
-// PEOPLE CREATE ROUTE
+// PEOPLE DELETE ROUTE
 app.delete("/people/:id", async (req, res) => {
   try {
     // send all people
